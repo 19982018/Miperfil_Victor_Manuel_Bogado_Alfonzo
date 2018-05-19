@@ -1,0 +1,187 @@
+@charset charset="utf-8";
+@font-face{
+	font-family: 'fondologo';
+	src: url("../fontss/bubblegum-sans-regular.otf");
+	font-family: 'Pangolin';
+	src:url("../fontss/Pangolin-Regular.ttf");
+	font-family:'alegreya';
+	src: url("../fontss/Alegreya-MediumItalic.ttf");
+	font-family:'pompiere';
+	src: url("../fontss/Pompiere-Regular.ttf");
+	font-family: 'Tangerine';
+	src: url("../fontss/Tangerine-Bold.ttf");
+	font-family: 'qwigley';
+	src:url("../fontss/Qwigley-Regular.ttf");
+}
+body{
+	padding: 0px;
+	margin-top: 6%;
+	background-image: url(../img/3d.jpg);
+	background-repeat: no-repeat;
+}
+.thumbnail{
+	background-color:#189980;
+	box-shadow: 2px 0px  10px rgba(0,0,0,.5);
+	border: 1px solid  rgba(0,0,0,.5)
+}
+.thumbnail>img{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+h4 span{
+	font-size: 25px;
+}
+div.caption {
+	border-bottom: 1px solid white;
+}
+div.caption#leyenda{
+	border-bottom: none;
+	margin-left: 69px;
+}
+div.caption#leyenda1 h4{
+	font-family: 'Qwigley';
+	color: black;
+	font-size: 40px;
+}
+div.caption#leyenda2{
+	border-bottom: none;
+	font-family: alegreya;
+}
+div.caption#leyenda2 h5{
+	font-size: 16px;
+}
+a span{
+	padding: 10px;
+	display: inline-block;
+}
+a span:hover{
+	text-decoration: underline;
+}
+#fac{
+    color: black;
+    
+}
+#is{
+	color: black;
+}
+#you{
+	color: black;
+}
+#twi{
+	color: black;
+}
+span{
+	font-size: 25px;
+}
+.well{
+	background-color: #122440cf;
+	box-shadow: 2px 0px  10px rgba(0,0,0,.5);
+	border: 1px solid  rgba(0,0,0,.5);
+
+}
+div.well #h1{
+	font-family: Qwigley;
+	font-size: 52px;
+	color: white;
+	margin-top: 10px;
+}
+div.well #p1{
+	font-family: pompiere;
+	font-size: 16px;
+	color: white;
+}
+div.well p{
+	font-family: pompiere;
+	font-size: 16px;
+}
+div.well#h4{
+	font-family: Tangerine;
+	font-size: 50px;
+	color: black;
+}
+#accordion{
+	margin-top: 10px;
+}
+.panel-group .panel-heading{
+	height: 90px;
+
+}
+.svg-inline--fa{
+	margin-right: 20px;
+	font-size: 25px;
+}
+h4.panel-title a{
+	font-family: fondologo;
+
+}
+.panel-title{
+	margin-top: 20px;
+}
+.panel-body#rr{
+	font-family: pompiere;
+	font-size: 14px;
+	color: black;
+	text-align: justify;
+}
+.panel-body#rr h1{
+	font-size: 16px;
+	color: #3DFFF8;
+	margin-top: 0px;
+}
+.panel-body#body1{
+	font-family: pompiere;
+	font-size: 14px;
+	color: black;
+	text-align: justify
+}
+.panel-body#body1 h1{
+	font-size: 16px;
+	color: #3DFFF8;
+	margin-top: 0px;
+}
+#headingOne{
+	background: #FFFFFF;
+}
+#headingTwo{
+	background: #FFFFFF;
+
+
+}
+#headingThree{
+	background: #FFFFFF;
+}
+table#tabelaspec td{
+padding: 5px;
+}
+table#tabelaspec td.ce{
+	color: white;
+	background: #606060;
+	vertical-align: top;
+	font-weight: bold;
+
+}
+table#tabelaspec td.cd{
+	background: #cecece;
+	font-size: 12px
+
+}
+table#Estudio{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table#Estudio td{
+	border: 1px solid #606060;
+    padding: 10px;
+}
+table#Estudio td.ce{
+	color: white;
+    background: #15bb96de;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#Estudio td.cd{
+	background-color: #0a3f58e3;
+}
